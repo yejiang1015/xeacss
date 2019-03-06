@@ -1,0 +1,22 @@
+{
+    "name": "xeacss",
+    "version": "1.0.0",
+    "main": "dist/index.css",
+    "scripts": {
+        "build": "postcss ./src/style.css --output ./dist/index.css"
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "cssnano": "^4.1.10",
+        "cssnext": "^1.8.4",
+        "postcss": "^7.0.14",
+        "postcss-comment": "^2.0.0",
+        "postcss-flexbugs-fixes": "^4.1.0",
+        "postcss-import": "^12.0.1",
+        "postcss-preset-env": "^6.6.0",
+        "precss": "^4.0.0"
+    },
+    "dependencies": {
+        "postcss-cli": "^6.1.2"
+    }
+}
