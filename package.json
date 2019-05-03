@@ -1,11 +1,29 @@
 {
     "name": "xeacss",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "main": "dist/index.css",
+    "description": "css工具库 css常用库",
+    "homepage": "https://github.com/yejiang1015/xeacss#readme",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/yejiang1015/xeacss.git"
+    },
+    "directories": {
+        "lib": "lib",
+        "test": "test"
+    },
+    "keywords": [
+        "css",
+        "postcss"
+    ],
+    "author": "yejiang1015",
     "scripts": {
         "build": "postcss ./src/style.css --output ./dist/index.css"
     },
     "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/yejiang1015/xeacss/issues"
+    },
     "devDependencies": {
         "cssnano": "^4.1.10",
         "cssnext": "^1.8.4",
