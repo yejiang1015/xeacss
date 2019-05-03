@@ -15,9 +15,7 @@
   </a>
 </p>
 
-<h2 align="center">xeacss <sub style="font-size: 12px;padding-left: 8px;">postcss -> css</sub></h2>
-
-******************************
+<h2 align="center">xeacss</h2>
 
 ## Installation
 
